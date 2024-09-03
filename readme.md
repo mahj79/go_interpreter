@@ -1,1 +1,1 @@
-Adding this file as the read me for beginning the writing an interpreter in Go book. 
+Adding this file as the read me for beginning the writing an interpreter in Go book. The files and code I write in this repo will be for learning purposes as I follow along.
