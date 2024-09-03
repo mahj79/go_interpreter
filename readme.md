@@ -1,0 +1,1 @@
+Adding this file as the read me for beginning the writing an interpreter in Go book. 
