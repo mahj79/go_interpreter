@@ -16,8 +16,7 @@ type Parser struct {
 
 func New(l *lexer.Lexer) *Parser {
 	p := &Parser{
-		l:
-		l,
+		l:	l,
 		errors: []string{},
 		}
 
