@@ -111,3 +111,5 @@ func (ls *LetStatement) String() string {
  	}
  	return ""
  }
+
+ func (i *Identifier) String() string { return i.Value }
