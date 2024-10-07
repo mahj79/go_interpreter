@@ -12,6 +12,8 @@ type Parser struct {
 	errors []string
 	curToken token.Token
 	peekToken token.Token
+	prefixParseFns map[token.TokenType]prefixParseFn
+	infixParseFns map[token.TokenType]infixParseFn
 }
 
 type (
