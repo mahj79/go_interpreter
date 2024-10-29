@@ -21,6 +21,17 @@ type (
 	infixParseFn func(ast.Expression) ast.Expression
 )
 
+const (
+	_ int = iota
+	LOWEST
+	EQUALS // ==
+	LESSGREATER // > or <
+	SUM // +
+	PRODUCT // *
+	PREFIX // -X or !X
+	CALL // myFunction(X)
+)
+
 func New(l *lexer.Lexer) *Parser {
 	p := &Parser{
 		l:	l,
